@@ -1,8 +1,8 @@
 'use strict';
 
 var cacheName = 'slvnfchr';
-var root = '../';
-var filesToCache = ['' + root, root + 'components/application.htm', root + 'styles/index.css'];
+var root = './';
+var filesToCache = ['' + root, root + 'components/application.htm', root + 'styles/index.css', root + 'styles/font/opensans-light-webfont.woff2', root + 'styles/font/fontello.woff2?62471961', root + 'scripts/webcomponents-lite.min.js'];
 
 self.addEventListener('install', function (e) {
 	e.waitUntil(caches.open(cacheName).then(function (cache) {
