@@ -40,8 +40,8 @@
     }
   ],
   "display": "standalone",
-  "background_color": "#57bc90",
-  "theme_color": "#57bc90",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
   "orientation": "portrait",
   "start_url": "https://slvnfchr.github.io/?utm_source=homescreen"
 }
