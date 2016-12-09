@@ -24,7 +24,7 @@ self.addEventListener('activate', function (e) {
 
 self.addEventListener('fetch', function (e) {
 	e.respondWith(caches.match(e.request).then(function (response) {
-		var alternate = e.request.mode === 'navigate' && e.request.url.match(/amp\//i) ? e.request.url.replace(/amp\//i, '') : e.request;
+		var alternate = e.request.url.match(/amp\//i) ? e.request.url.replace(/amp\//i, '') : e.request;
 		return response || fetch(alternate);
 	}));
 });
