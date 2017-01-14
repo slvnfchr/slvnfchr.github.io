@@ -1,0 +1,14 @@
+{
+    "env": {
+        "browser": true,
+        "amd": true,
+        "es6": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+    	"indent": [ "error", "tab" ],
+    	"max-len": "off",
+    	"no-tabs": "off",
+    	"padded-blocks": "off"
+    }
+}
